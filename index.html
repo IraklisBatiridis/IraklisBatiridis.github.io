@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iraklis Batiridis - IT Support Specialist</title>
+<title>Iraklis Batiridis — IT Support Specialist</title>
 
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
@@ -16,7 +16,7 @@
 
     <img src="profile.jpg" class="profile-img" onclick="openModal()">
 
-    <div>
+    <div class="hero-text">
       <h1>Iraklis Batiridis</h1>
       <h2>IT Support Specialist</h2>
 
@@ -25,16 +25,16 @@
         <a href="tel:+35799398630">📱 +357 99398630</a>
         <span>📍 Nicosia, Cyprus</span>
       </div>
-
     </div>
+
   </div>
 </header>
 
 <section class="section">
 <div class="container">
 <h3>About Me</h3>
-<p>
-IT Support Specialist with hands-on experience in telecom, networking and enterprise technical support.
+<p class="about">
+IT Support Specialist with hands-on experience in telecom, networking and enterprise technical support. 
 Strong troubleshooting skills across VoIP, VPN, Layer2/Layer3 networking and business telephony systems.
 </p>
 </div>
@@ -46,20 +46,20 @@ Strong troubleshooting skills across VoIP, VPN, Layer2/Layer3 networking and bus
 
 <div class="card">
 <h4>OLISOFT — IT Support</h4>
-<span>Feb 2024 – Present | Strovolos, Nicosia</span>
 <ul>
+<li>Feb 2024 – Present | Strovolos, Nicosia</li>
 <li>Provided IT support for OPAP Greece and OPAP Cyprus.</li>
 </ul>
 </div>
 
 <div class="card">
 <h4>CABLENET — Technical Support</h4>
-<span>Nov 2021 – Jan 2024 | Nicosia</span>
 <ul>
-<li>Telecom support: cable/fiber modems, TV, landlines, email and mobile services.</li>
-<li>Business telephony: ISDN PRI, SIP Trunk, Hosted PBX and Special Numbers.</li>
-<li>Troubleshooting ULTRAWIFI, VPN, Layer-2 Ethernet and Layer-3 networking.</li>
-<li>Advanced customer and enterprise technical support.</li>
+<li>Nov 2021 – Jan 2024 | Nicosia</li>
+<li>Telecom support: cable/fiber modems, TV, landlines, email & mobile.</li>
+<li>Business telephony: ISDN PRI, SIP Trunk, Hosted PBX.</li>
+<li>Troubleshooting ULTRAWIFI, VPN, Layer-2 & Layer-3 networking.</li>
+<li>Advanced customer & enterprise technical support.</li>
 </ul>
 </div>
 
@@ -80,19 +80,28 @@ Strong troubleshooting skills across VoIP, VPN, Layer2/Layer3 networking and bus
 <section class="section">
 <div class="container">
 <h3>Languages</h3>
-<div class="card">FLUENT — Greek</div>
-<div class="card">PROFICIENT — English</div>
-<div class="card">CONVERSATIONAL — Russian</div>
+
+<div class="card">
+<p><strong>FLUENT</strong><br>Greek</p>
+<p><strong>PROFICIENT</strong><br>English</p>
+<p><strong>CONVERSATIONAL</strong><br>Russian</p>
+</div>
+
 </div>
 </section>
 
+<!-- IMAGE ZOOM -->
 <div id="imgModal" class="modal" onclick="closeModal()">
-<img src="profile.jpg">
+<img src="profile.jpg" class="modal-img">
 </div>
 
 <script>
-function openModal(){document.getElementById("imgModal").style.display="flex";}
-function closeModal(){document.getElementById("imgModal").style.display="none";}
+function openModal(){
+document.getElementById("imgModal").style.display="flex";
+}
+function closeModal(){
+document.getElementById("imgModal").style.display="none";
+}
 </script>
 
 </body>
