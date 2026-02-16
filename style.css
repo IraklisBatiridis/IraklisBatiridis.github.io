@@ -11,9 +11,8 @@ color:#ffffff;
 line-height:1.6;
 }
 
-/* TEXT SELECTION */
+/* Text selection blue */
 ::selection{background:#4da3ff;color:white;}
-::-moz-selection{background:#4da3ff;color:white;}
 
 /* HERO */
 .hero{
@@ -50,12 +49,9 @@ color:white;
 text-decoration:none;
 margin-right:15px;
 }
-.contact span{color:#ddd;}
 
-/* SECTIONS */
 .section{padding:50px 20px;}
 
-/* CARDS */
 .card{
 background:#2a2a2a;
 padding:20px;
@@ -63,7 +59,6 @@ border-radius:14px;
 margin-bottom:18px;
 }
 
-/* IMAGE ZOOM */
 .modal{
 display:none;
 position:fixed;
@@ -73,9 +68,9 @@ background:rgba(0,0,0,0.9);
 justify-content:center;
 align-items:center;
 }
+
 .modal img{max-width:90%;max-height:90%;}
 
-/* MOBILE */
 @media(max-width:768px){
 .hero-content{flex-direction:column;text-align:center;}
 }
