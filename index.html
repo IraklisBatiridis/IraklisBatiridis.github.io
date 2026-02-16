@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iraklis Batiridis - IT Support Specialist</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="container hero-content">
+        <img src="profile.jpg" class="profile-img" onclick="openModal()">
+
+        <div>
+            <h1>Iraklis Batiridis</h1>
+            <h2>IT Support Specialist</h2>
+
+            <div class="contact">
+                <a href="mailto:hraklis70@gmail.com">📧 hraklis70@gmail.com</a>
+                <a href="tel:+35799398630">📱 +357 99398630</a>
+                <span>📍 Nicosia, Cyprus</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section">
+<div class="container">
+<h3>About Me</h3>
+<p class="about">
+IT Support Specialist with hands-on experience in telecom, networking and enterprise technical support.
+Strong troubleshooting skills across VoIP, VPN, Layer2/Layer3 networking and business telephony systems.
+</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h3>Experience</h3>
+
+<div class="card">
+<h4>OLISOFT — IT Support</h4>
+<span>Feb 2024 – Present | Strovolos, Nicosia</span>
+<ul>
+<li>Provided IT support for OPAP Greece and OPAP Cyprus, a leading betting agency.</li>
+</ul>
+</div>
+
+<div class="card">
+<h4>CABLENET — Technical Support</h4>
+<span>Nov 2021 – Jan 2024 | Nicosia</span>
+<ul>
+<li>Telecom support: cable/fiber modems, TV, landlines, email and mobile services.</li>
+<li>Business telephony: ISDN PRI, SIP Trunk, Hosted PBX and Special Numbers.</li>
+<li>Troubleshooting ULTRAWIFI, VPN, Layer-2 Ethernet and Layer-3 networking.</li>
+<li>Advanced customer and enterprise technical support.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h3>Education</h3>
+
+<div class="card">Global College — Business Management (2022 – Jan 2026)</div>
+<div class="card">University of Nicosia — BSc Accounting (2019 – 2022)</div>
+<div class="card">B’ Technical School (2015 – 2019)</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h3>Languages</h3>
+<div class="tags">
+<span>Greek</span>
+<span>English</span>
+<span>Russian</span>
+</div>
+</div>
+</section>
+
+<footer>© 2025 Iraklis Batiridis</footer>
+
+<!-- IMAGE ZOOM -->
+<div id="imgModal" class="modal" onclick="closeModal()">
+<img id="modalImg" src="profile.jpg">
+</div>
+
+<script>
+function openModal(){document.getElementById("imgModal").style.display="flex";}
+function closeModal(){document.getElementById("imgModal").style.display="none";}
+</script>
+
+</body>
+</html>
